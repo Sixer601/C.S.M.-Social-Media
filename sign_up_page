@@ -1,0 +1,63 @@
+Sign Up Page html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" type="text/css" href="Styles.css" />
+    
+</head>
+<body>
+  
+  <div id = "Sign_Up_Page">
+    <div id = "header">
+      <h1> Sign Up Page </h1>
+    </div>
+    <div id = "Sign_Up_Info">
+      <label> Username: </label>
+      <input id ="Username" type="text" <p>(insert email)</p>
+         
+      <label> Password: </label>
+      <input id ="Password" type="text"/><br><br>
+      
+      <label> First Name: </label>
+      <input id ="First_Name" type="text"/><br><br>
+      
+      <label> Last Name: </label>
+      <input id ="Last_Name" type="text"/><br/>
+      
+      <button id="Back_Button "type="button">Back </button>
+      
+      <button id="Sign_Up_Submit"type="button">Sign Up</button>
+      
+  </div>
+
+    
+  </div>
+  
+</body>
+</html>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Sign Up Page CSS
+body {
+    background-color: Lightblue;
+}
+
+#header {
+  text-align: center;
+  position: relative;  
+}
+
+#Username {
+  
+  
+}
+
+#Password {
+  
+  
+}
+
+#Sign_Up_Submit {
+  position: relative;
+  left: 150px
+}
