@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    font-family: Trebuchet MS;
+  }
+  
+  #ad-pg_contents {
+    background-color: lightgrey;
+    border: 5px #219ebc solid;
+    border-radius: 20px;
+    margin: auto;
+    height: 100%;
+    width: 70%;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  
+  #pg_title {
+    color: #219ebc;
+    font-size: 20px;
+  }
+  
+  .admin-settings {
+    border: none;
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  #user-inputs {
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: #219ebc;
+    width: 200px;
+    height: 45px;
+    margin: 20px;
+    margin-left: 240px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+  }
+  
+  #align-cont {
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: #219ebc;
+    width: 200px;
+    height: 45px;
+    margin: 20px;
+    margin-left: 450px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Trebuchet MS;
+  }
+  
+  #user-inputs:hover, #align-cont:hover {
+    pointer-events: auto;
+    background-color: #f1f1f1;
+    border: 3px #219ebc solid;
+    cursor: pointer;
+  }
+  
